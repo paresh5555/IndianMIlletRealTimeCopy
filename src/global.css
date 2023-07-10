@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;700&display=swap");
+
+body {
+  zoom: 0.8;
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+
+  --font-sf-pro-display: "SF Pro Display";
+
+
+  --font-size-21xl: 40px;
+
+
+  --color-darkslategray: #3e4567;
+}

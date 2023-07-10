@@ -1,0 +1,170 @@
+.background-icon {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+
+.selection-button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 27px;
+  font-weight: 600;
+  color: #3E4567;
+}
+
+.selection-button:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.selection-button:active {
+  background-color: #dcdcdc;
+}
+
+.selection-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.title {
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  left: 467px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  color: #101323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1027px;
+  height: 116px;
+}
+
+.state-child {
+  position: absolute;
+  top: 80.34px;
+  left: 0;
+  width: 376.66px;
+  height: 17.32px;
+}
+
+.state,
+.state-name {
+  position: absolute;
+  height: 118px;
+}
+
+.state-name {
+  margin: 0;
+  top: 0;
+  left: 56px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 599px;
+}
+
+.state {
+  top: 165px;
+  left: 21px;
+  width: 655px;
+  text-align: left;
+  font-size: 40px;
+}
+
+.farmer-producer-organization-child {
+  position: absolute;
+  top: -7px;
+  left: 98.47px;
+  border-radius: var(--br-74xl);
+  width: 500.94px;
+  height: 233.69px;
+  object-fit: cover;
+}
+
+.farmer-producer-organization1 {
+  position: absolute;
+  top: 11.31px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 706.09px;
+  height: 81.23px;
+}
+
+.entrepreneurs-and-startups,
+.farmer-producer-organization {
+  position: absolute;
+  top: 0;
+  left: 1293px;
+  width: 706.09px;
+  height: 97.69px;
+}
+
+.entrepreneurs-and-startups {
+  top: 188.17px;
+  left: 643.69px;
+}
+
+.cost-of-cultivation,
+.district-wise-data,
+.famer-harvest-price {
+  position: absolute;
+  top: 0;
+  left: 639.59px;
+  width: 706.09px;
+  height: 97.69px;
+}
+
+.cost-of-cultivation,
+.district-wise-data {
+  top: 199.17px;
+  left: 0;
+}
+
+.district-wise-data {
+  top: 11px;
+}
+
+.selections,
+.state-page {
+  position: absolute;
+  width: 1999.09px;
+}
+
+.selections {
+  top: 320px;
+  left: 0;
+  height: 296.86px;
+  font-size: var(--font-size-13xl);
+}
+
+.state-page {
+  top: 0;
+  left: -21px;
+  height: 1080px;
+}
+
+.state-page-parent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-darkslategray);
+  font-family: var(--font-sf-pro-display);
+}

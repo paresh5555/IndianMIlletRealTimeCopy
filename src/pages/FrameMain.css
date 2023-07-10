@@ -1,0 +1,122 @@
+.background-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+
+.export,
+.india,
+.title {
+  margin: 0;
+  position: absolute;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  top: 10px;
+  left: 446px;
+  font-size: 48px;
+  color: #101323;
+  text-align: center;
+  justify-content: center;
+  width: 1027px;
+  height: 116px;
+}
+
+.export,
+.india {
+  top: 140px;
+  left: 49px;
+  font-size: inherit;
+  width: 599px;
+  height: 118px;
+}
+
+.export {
+  top: 534px;
+  left: 48px;
+}
+
+.select,
+.submit-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.submit-child {
+  top: -7px;
+  left: 177px;
+  border-radius: 20px;
+  width: 234px;
+  height: 195px;
+  object-fit: cover;
+}
+
+.submit,
+.submit1 {
+  position: absolute;
+  width: 591px;
+}
+
+.submit1 {
+  top: 2px;
+  left: 0;
+  font-size: 32px;
+  font-family: var(--font-sf-pro-display);
+  color: #f7f8ff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54.05px;
+}
+
+.submit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 148px;
+  left: 81px;
+  height: 59px;
+}
+
+.buttons,
+.main-page {
+  position: absolute;
+  top: 241px;
+  left: 581px;
+  width: 688px;
+  height: 207px;
+}
+
+.main-page {
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+.frame-main {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-sf-pro-display);
+}
+.state-select {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #3E4567;
+}

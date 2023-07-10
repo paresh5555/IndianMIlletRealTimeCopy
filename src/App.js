@@ -1,0 +1,50 @@
+import React, { useEffect } from 'react';
+import { Routes, Route, useNavigationType, useLocation } from 'react-router-dom';
+import FrameMain from './pages/FrameMain';
+import FrameComponent from './frame-component';
+
+function App() {
+  const action = useNavigationType();
+  const location = useLocation();
+  const pathname = location.pathname;
+
+  useEffect(() => {
+    if (action !== 'POP') {
+      window.scrollTo(0, 0);
+    }
+  }, [action, pathname]);
+
+  useEffect(() => {
+    let title = '';
+    let metaDescription = '';
+
+    switch (pathname) {
+      case '/':
+        title = '';
+        metaDescription = '';
+        break;
+    }
+
+    if (title) {
+      document.title = title;
+    }
+
+    if (metaDescription) {
+      const metaDescriptionTag = document.querySelector(
+        'head > meta[name="description"]'
+      );
+      if (metaDescriptionTag) {
+        metaDescriptionTag.content = metaDescription;
+      }
+    }
+  }, [pathname]);
+
+  return (
+    <Routes>
+    <Route path="/" element={<FrameMain />} />
+    <Route path="/state/:stateName" element={<FrameComponent />} />
+  </Routes>
+  );
+}
+
+export default App;
